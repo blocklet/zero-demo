@@ -1,0 +1,25 @@
+{
+  "name": "Zero-test",
+  "description": "zero demo project",
+  "group": "dapp",
+  "color": "primary",
+  "public_url": "/",
+  "admin_url": "",
+  "config_url": "",
+  "doc_url": "",
+  "provider": "community",
+  "keywords": [],
+  "main": ".",
+  "author": "polunzh <polunzh@gmail.com>",
+  "runtime": {
+    "interpreter": "zero",
+    "script": ".",
+    "args": []
+  },
+  "capabilities": {
+    "dynamicPathPrefix": false
+  },
+  "hooks": {
+    "pre-deploy": "npm run bundle"
+  }
+}
