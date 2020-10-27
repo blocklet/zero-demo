@@ -1,11 +1,17 @@
 // index.jsx
-import React from 'react'
+import React from 'react';
 export default class extends React.Component {
-  static async getInitialProps(){
-    var json = await fetch("/time").then((resp) => resp.json())
-    return {time: json.time}
+  static async getInitialProps() {
+    var json = await fetch('/time').then((resp) => resp.json());
+    return { time: json.time };
   }
+
   render() {
-    return <p>Current time is: {this.props.time}</p>
+    return (
+      <div>
+        <p>This is a zero server framework demo.</p>
+        <p>Current server time is {this.props.time}</p>
+      </div>
+    );
   }
 }
