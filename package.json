@@ -2,9 +2,9 @@
   "name": "zero-demo",
   "keywords": [],
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "zero",
+    "dev": "zero",
     "build": "NODE_ENV=production zero build",
     "bundle": "NODE_ENV=production zero build && abtnode bundle"
   },

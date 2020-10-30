@@ -21,5 +21,8 @@
   },
   "hooks": {
     "pre-deploy": "npm run bundle"
+  },
+  "scripts": {
+    "dev": "npm run dev"
   }
 }
