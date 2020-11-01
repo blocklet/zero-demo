@@ -8,6 +8,13 @@ This is a demo blocklet powered by [Zero Server](https://zeroserver.io/).
 2. After the environment is started, open the url displayed in the console -->
 
 
+## Run and debug in the cloud with Gitpod
+
+Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/zero-demo)
+
+
 ## Develop locally
 
 You can install Zero Server globally by:
