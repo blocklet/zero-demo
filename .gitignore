@@ -1,4 +1,5 @@
 .DS_Store
+.abtnode
 .zero
 zero-builds
 node_modules/
