@@ -9,7 +9,7 @@ export default class extends React.Component {
   render() {
     return (
       <div>
-        <p>This is a zero server framework demo.</p>
+        <p>This is a zero server framework blocklet demo.</p>
         <p>Current server time is {this.props.time}</p>
       </div>
     );
