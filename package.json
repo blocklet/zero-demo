@@ -12,7 +12,6 @@
     ".babelrc",
     ".zeroignore",
     ".zero",
-    "blocklet.json",
     "blocklet.md",
     "index.jsx",
     "package.json",
