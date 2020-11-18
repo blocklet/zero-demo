@@ -1,7 +1,7 @@
 name: zero-demo
 description: zero demo project
 group: dapp
-version: 1.0.0
+version: 1.0.1
 main: .
 title: Zero Demo
 publicUrl: /
@@ -9,6 +9,8 @@ adminUrl: ''
 configUrl: ''
 docUrl: ''
 author: polunzh <polunzh@gmail.com>
+charging:
+  price: 0
 color: primary
 keywords: []
 hooks:
@@ -21,7 +23,5 @@ engine:
   interpreter: zero
   script: .
   args: []
-charging:
-  price: 0
-did: z8iZvUKWGvDyi8Woc886fErHrfFrAVRFGUgeE
 specVersion: 1.0.0
+did: z8iZvUKWGvDyi8Woc886fErHrfFrAVRFGUgeE
