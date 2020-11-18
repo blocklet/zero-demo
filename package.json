@@ -19,7 +19,7 @@
     "time.js",
     "yarn.lock"
   ],
-  "author": "",
+  "author": "ArcBlock",
   "license": "ISC",
   "description": "zero demo project",
   "dependencies": {

@@ -1,5 +1,6 @@
 {
-  "name": "Zero-test",
+  "name": "zero-demo",
+  "title": "Zero Demo",
   "description": "zero demo project",
   "group": "dapp",
   "color": "primary",
