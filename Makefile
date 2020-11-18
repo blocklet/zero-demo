@@ -7,4 +7,4 @@ test:
 
 build:
 	@echo "Building the software..."
-	@npm run build && npm run export
+	@npm run build

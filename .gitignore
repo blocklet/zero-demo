@@ -3,4 +3,4 @@
 .zero
 zero-builds
 node_modules/
-_blocklet/
+.blocklet/
