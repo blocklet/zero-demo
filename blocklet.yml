@@ -43,3 +43,5 @@ environments:
     default: 'production'
     description: 'This environment is required for zero apps to run in production mode'
     required: true
+timeout:
+  start: 20
