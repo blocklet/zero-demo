@@ -1,28 +1,19 @@
 {
   "name": "zero-demo",
-  "keywords": [],
   "version": "1.0.1",
+  "private": true,
   "scripts": {
     "start": "zero",
     "dev": "zero",
     "build": "NODE_ENV=production zero build",
-    "bundle": "NODE_ENV=production zero build && abtnode bundle"
+    "bundle": "npm run build && abtnode bundle --zip --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
-  "files": [
-    ".babelrc",
-    ".zeroignore",
-    ".zero",
-    "blocklet.md",
-    "index.jsx",
-    "package.json",
-    "time.js",
-    "yarn.lock"
-  ],
   "author": "ArcBlock",
   "license": "ISC",
   "description": "zero demo project",
   "dependencies": {
-    "@babel/core": "^7.0.0-0",
+    "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/runtime": "^7.3.1",
