@@ -1,10 +1,14 @@
 name: zero-demo
-title: ZeroFramework Demo
+version: 1.0.2
+author:
+  name: polunzh
+  email: polunzh@gmail.com
+license: ISC
 description: A simple demo application that shows how zeroframework apps runs in ABT Node
+title: Zero Demo
 keywords:
   - demo
   - zero
-version: 1.0.1
 files:
   - .babelrc
   - .zeroignore
@@ -14,13 +18,8 @@ files:
   - package.json
   - time.js
   - yarn.lock
-author:
-  name: polunzh
-  email: polunzh@gmail.com
-license: ISC
 group: dapp
 main: .
-title: Zero Demo
 scripts:
   dev: npm run dev
 engine:
@@ -37,11 +36,16 @@ interfaces:
     name: publicUrl
     path: /
     prefix: /
-    port: 'PORT'
+    port: PORT
+    protocol: tcp
 environments:
-  - name: 'NODE_ENV'
-    default: 'production'
-    description: 'This environment is required for zero apps to run in production mode'
+  - name: NODE_ENV
+    default: production
+    description: This environment is required for zero apps to run in production mode
     required: true
+    secure: false
 timeout:
   start: 20
+capabilities:
+  dynamicPathPrefix: true
+screenshots: []
