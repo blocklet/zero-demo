@@ -45,7 +45,7 @@ environments:
     required: true
     secure: false
 timeout:
-  start: 20
+  start: 40
 capabilities:
   dynamicPathPrefix: true
 screenshots: []
