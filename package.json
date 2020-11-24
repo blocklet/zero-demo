@@ -6,8 +6,8 @@
     "start": "zero",
     "dev": "zero",
     "build": "NODE_ENV=production zero build",
-    "bundle": "npm run build && an bundle --zip --create-release",
-    "deploy": "npm run bundle && an deploy .blocklet/bundle"
+    "bundle": "npm run build && abtnode bundle --zip --create-release",
+    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
   "author": "ArcBlock",
   "license": "ISC",
