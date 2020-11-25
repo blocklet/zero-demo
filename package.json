@@ -3,9 +3,10 @@
   "version": "1.0.3",
   "private": true,
   "scripts": {
+    "clean": "rm -rf app/.zero",
     "start": "zero app",
-    "dev": "zero app",
-    "build": "NODE_ENV=production zero build app",
+    "dev": "npm run start",
+    "build": "npm run clean && NODE_ENV=production zero build app",
     "bundle": "npm run build && abtnode bundle --zip --create-release",
     "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
