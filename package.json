@@ -1,11 +1,12 @@
 {
   "name": "zero-demo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "scripts": {
-    "start": "zero",
-    "dev": "zero",
-    "build": "NODE_ENV=production zero build",
+    "clean": "rm -rf app/.zero",
+    "start": "zero app",
+    "dev": "npm run start",
+    "build": "npm run clean && NODE_ENV=production zero build app",
     "bundle": "npm run build && abtnode bundle --zip --create-release",
     "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
   },
@@ -13,7 +14,7 @@
   "license": "ISC",
   "description": "zero demo project",
   "dependencies": {
-    "@babel/core": "^7.2.2",
+    "@babel/core": "^7.0.0-0",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/runtime": "^7.3.1",
