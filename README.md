@@ -20,7 +20,7 @@ You can install Zero Server globally by:
 
 `npm install -g zero`
 
-You can install ABT Node globally by: 
+You can install ABT Node globally by:
 
 `npm install -g @abtnode/cli`
 
@@ -30,10 +30,8 @@ You can install ABT Node globally by:
 
 ### bundle as blocklet and test locally
 
+```shell
+npm run deploy
 ```
-npm run bundle
-abtnode deploy _blocklet
-```
-
 
 **To Be Done**
