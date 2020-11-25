@@ -10,21 +10,16 @@ keywords:
   - demo
   - zero
 files:
-  - .babelrc
-  - .zeroignore
-  - .zero
+  - app
   - blocklet.md
-  - index.jsx
   - package.json
-  - time.js
-  - yarn.lock
 group: dapp
 main: .
 scripts:
   dev: npm run dev
 engine:
   interpreter: zero
-  script: .
+  script: app
   args: []
 specVersion: 1.0.1
 did: z8iZvUKWGvDyi8Woc886fErHrfFrAVRFGUgeE
@@ -46,6 +41,4 @@ environments:
     secure: false
 timeout:
   start: 40
-capabilities:
-  dynamicPathPrefix: true
 screenshots: []
