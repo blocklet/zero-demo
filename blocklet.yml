@@ -1,5 +1,5 @@
 name: zero-demo
-version: 1.0.4
+version: 1.0.5
 author:
   name: polunzh
   email: polunzh@gmail.com
@@ -42,3 +42,5 @@ environments:
 timeout:
   start: 40
 screenshots: []
+capabilities:
+  dynamicPathPrefix: true
