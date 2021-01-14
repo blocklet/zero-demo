@@ -26,7 +26,7 @@ You can install ABT Node globally by:
 
 ### Run in development/debug mode
 
-`abtnode dev`
+`blocklet dev`
 
 ### bundle as blocklet and test locally
 
