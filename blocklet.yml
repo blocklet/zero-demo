@@ -1,5 +1,5 @@
 name: zero-demo
-version: 1.0.5
+version: 1.0.6
 author:
   name: polunzh
   email: polunzh@gmail.com
@@ -7,6 +7,7 @@ license: ISC
 description: A simple demo application that shows how zeroframework apps runs in ABT Node
 title: Zero Demo
 keywords:
+  - dapp
   - demo
   - zero
 files:
@@ -21,7 +22,7 @@ engine:
   interpreter: zero
   script: app
   args: []
-specVersion: 1.0.1
+specVersion: 1.0.2
 did: z8iZvUKWGvDyi8Woc886fErHrfFrAVRFGUgeE
 community: ''
 documentation: ''
@@ -42,5 +43,7 @@ environments:
 timeout:
   start: 40
 screenshots: []
-capabilities:
-  dynamicPathPrefix: true
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
