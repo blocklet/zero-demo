@@ -12,3 +12,5 @@ build:
 
 bundle:
 	@npm run bundle
+
+include .makefiles/*.mk
